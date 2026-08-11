@@ -1,7 +1,7 @@
 {
   "name": "bcra-exchange-rate",
-  "version": "1.0.1",
-  "description": "Official Central Bank of Argentina (Argentina) daily exchange rates — ~36 currencies vs ARS, history since 2000. Zero-dependency Node.js/TypeScript client.",
+  "version": "1.1.2",
+  "description": "Official Central Bank of Argentina (Argentina) daily exchange rates — 35 currencies vs ARS, history since 2000. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "bcra",
     "central",
