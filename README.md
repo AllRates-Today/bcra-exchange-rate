@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'ARS', { apiKey: 'art_live_...' });
 {
   bank: 'bcra',
   name: 'Central Bank of Argentina',
-  rate_date: '2026-09-08',   // Central Bank of Argentina's own publication date
+  rate_date: '2026-09-25',   // Central Bank of Argentina's own publication date
   source: 'USD',
   target: 'ARS',
-  rate: 1512,
+  rate: 1525.5,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcra',
   name: 'Central Bank of Argentina',
-  rate_date: '2026-09-08',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "ARS", "type": "reference", "value": 1512 },
+    { "base": "USD", "quote": "ARS", "type": "reference", "value": 1525.5 },
     // … the rest of the published table (35 currencies vs ARS)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bcra-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'ARS', from: '2026-01-01', to: '2026-09-08' },
+  { source: 'USD', target: 'ARS', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'ARS',
   from: '2026-01-01',
-  to: '2026-09-08',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-08', rate: 1512, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 1525.5, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
