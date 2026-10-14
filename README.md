@@ -42,7 +42,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-13** by Central Bank of Argentina — 36 rates. Updated 2026-10-13.
+Published **2026-10-13** by Central Bank of Argentina — 36 rates. Updated 2026-10-14.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -138,10 +138,10 @@ const pair = await getRate('USD', 'ARS', { apiKey: 'art_live_...' });
 {
   bank: 'bcra',
   name: 'Central Bank of Argentina',
-  rate_date: '2026-10-09',   // Central Bank of Argentina's own publication date
+  rate_date: '2026-10-13',   // Central Bank of Argentina's own publication date
   source: 'USD',
   target: 'ARS',
-  rate: 1517,
+  rate: 1512.5,
   rate_type: 'reference',
   derived: false,
   method: 'published',
@@ -166,9 +166,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'bcra',
   name: 'Central Bank of Argentina',
-  rate_date: '2026-10-09',
+  rate_date: '2026-10-13',
   rates: [
-    { "base": "USD", "quote": "ARS", "type": "reference", "value": 1517 },
+    { "base": "USD", "quote": "ARS", "type": "reference", "value": 1512.5 },
     // … the rest of the published table (35 currencies vs ARS)
   ],
   disclaimer: '…'
@@ -208,7 +208,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'bcra-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'ARS', from: '2026-01-01', to: '2026-10-09' },
+  { source: 'USD', target: 'ARS', from: '2026-01-01', to: '2026-10-13' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -221,11 +221,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'ARS',
   from: '2026-01-01',
-  to: '2026-10-09',
+  to: '2026-10-13',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-09', rate: 1517, rate_type: 'reference', derived: false, method: 'published' },
+    { date: '2026-10-13', rate: 1512.5, rate_type: 'reference', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
