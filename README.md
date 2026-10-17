@@ -42,46 +42,46 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Central Bank of Argentina — 36 rates. Updated 2026-10-16.
+Published **2026-10-16** by Central Bank of Argentina — 36 rates. Updated 2026-10-17.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | ARS | reference | 1046.996 |
-| AWG | ARS | reference | 845.251397 |
-| BOB | ARS | reference | 129.537671 |
-| BRL | ARS | reference | 298.322062 |
-| CAD | ARS | reference | 1066.694867 |
-| CHF | ARS | reference | 1829.061896 |
-| CLP | ARS | reference | 1.542005 |
-| CNH | ARS | reference | 226.151685 |
-| CNY | ARS | reference | 226.138164 |
-| COP | ARS | reference | 0.477218 |
-| CZK | ARS | reference | 69.702945 |
-| DKK | ARS | reference | 227.068075 |
-| EUR | ARS | reference | 1697.4347 |
-| GBP | ARS | reference | 2008.5075 |
-| HKD | ARS | reference | 192.797798 |
-| ILS | ARS | reference | 487.875661 |
-| INR | ARS | reference | 15.917101 |
-| JPY | ARS | reference | 9.571103 |
-| MXP | ARS | reference | 82.356719 |
-| NIO | ARS | reference | 41.193607 |
-| NOK | ARS | reference | 159.781185 |
-| NZD | ARS | reference | 849.7008 |
-| PEN | ARS | reference | 441.971197 |
-| PYG | ARS | reference | 0.264219 |
-| REF | ARS | reference | 1513.9308 |
-| RSD | ARS | reference | 14.451861 |
-| RUB | ARS | reference | 18.065672 |
-| SEK | ARS | reference | 152.057245 |
-| SGD | ARS | reference | 1180.187207 |
-| TRY | ARS | reference | 30.61656 |
-| USD | ARS | reference | 1513 |
-| UYU | ARS | reference | 37.709515 |
-| VEB | ARS | reference | 1.72690518 |
-| VND | ARS | reference | 0.05847795 |
-| XDR | ARS | reference | 2048.602 |
-| ZAR | ARS | reference | 91.665859 |
+| AUD | ARS | reference | 1053.1884 |
+| AWG | ARS | reference | 848.044693 |
+| BOB | ARS | reference | 129.965753 |
+| BRL | ARS | reference | 299.042591 |
+| CAD | ARS | reference | 1071.882502 |
+| CHF | ARS | reference | 1841.115828 |
+| CLP | ARS | reference | 1.542291 |
+| CNH | ARS | reference | 227.031393 |
+| CNY | ARS | reference | 227.024602 |
+| COP | ARS | reference | 0.478151 |
+| CZK | ARS | reference | 70.052378 |
+| DKK | ARS | reference | 227.986123 |
+| EUR | ARS | reference | 1704.2586 |
+| GBP | ARS | reference | 2020.9134 |
+| HKD | ARS | reference | 193.425076 |
+| ILS | ARS | reference | 487.538541 |
+| INR | ARS | reference | 15.986099 |
+| JPY | ARS | reference | 9.602733 |
+| MXP | ARS | reference | 82.085557 |
+| NIO | ARS | reference | 41.198614 |
+| NOK | ARS | reference | 160.801678 |
+| NZD | ARS | reference | 856.911 |
+| PEN | ARS | reference | 442.165972 |
+| PYG | ARS | reference | 0.263693 |
+| REF | ARS | reference | 1514.5655 |
+| RSD | ARS | reference | 14.515495 |
+| RUB | ARS | reference | 18.203905 |
+| SEK | ARS | reference | 152.945562 |
+| SGD | ARS | reference | 1185.56701 |
+| TRY | ARS | reference | 30.651743 |
+| USD | ARS | reference | 1518 |
+| UYU | ARS | reference | 37.874251 |
+| VEB | ARS | reference | 1.73077923 |
+| VND | ARS | reference | 0.058657599 |
+| XDR | ARS | reference | 2059.10628 |
+| ZAR | ARS | reference | 92.092651 |
 
 Source: [Official rates published by BCRA, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/bcra/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
