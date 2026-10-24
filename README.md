@@ -47,46 +47,46 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-22 by Central Bank of Argentina — 36 rates. Updated 2026-10-23.</summary>
+<summary>Table as text: published 2026-10-23 by Central Bank of Argentina — 36 rates. Updated 2026-10-24.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | ARS | reference | 1073.1144 |
-| AWG | ARS | reference | 853.631285 |
-| BOB | ARS | reference | 130.042553 |
-| BRL | ARS | reference | 302.988241 |
-| CAD | ARS | reference | 1091.038915 |
-| CHF | ARS | reference | 1860.691671 |
-| CLP | ARS | reference | 1.550482 |
-| CNH | ARS | reference | 228.985898 |
-| CNY | ARS | reference | 228.955018 |
-| COP | ARS | reference | 0.481002 |
-| CZK | ARS | reference | 70.645892 |
-| DKK | ARS | reference | 229.460438 |
-| EUR | ARS | reference | 1715.0272 |
-| GBP | ARS | reference | 2048.284 |
-| HKD | ARS | reference | 194.952665 |
-| ILS | ARS | reference | 491.5396 |
-| INR | ARS | reference | 16.113673 |
-| JPY | ARS | reference | 9.74117 |
-| MXP | ARS | reference | 81.69856 |
-| NIO | ARS | reference | 41.481272 |
-| NOK | ARS | reference | 163.851804 |
-| NZD | ARS | reference | 868.9736 |
-| PEN | ARS | reference | 443.824794 |
-| PYG | ARS | reference | 0.263648 |
-| REF | ARS | reference | 1527.8511 |
-| RSD | ARS | reference | 14.592712 |
-| RUB | ARS | reference | 18.703074 |
-| SEK | ARS | reference | 154.310702 |
-| SGD | ARS | reference | 1196.367053 |
-| TRY | ARS | reference | 30.789691 |
-| USD | ARS | reference | 1528 |
-| UYU | ARS | reference | 38.104453 |
-| VEB | ARS | reference | 1.73135765 |
-| VND | ARS | reference | 0.059123975 |
-| XDR | ARS | reference | 2071.93744 |
-| ZAR | ARS | reference | 92.584738 |
+| AUD | ARS | reference | 1076.00325 |
+| AWG | ARS | reference | 854.469274 |
+| BOB | ARS | reference | 129.180743 |
+| BRL | ARS | reference | 305.429638 |
+| CAD | ARS | reference | 1092.578041 |
+| CHF | ARS | reference | 1853.04095 |
+| CLP | ARS | reference | 1.537418 |
+| CNH | ARS | reference | 229.310345 |
+| CNY | ARS | reference | 229.303469 |
+| COP | ARS | reference | 0.486037 |
+| CZK | ARS | reference | 70.312464 |
+| DKK | ARS | reference | 229.049359 |
+| EUR | ARS | reference | 1711.96935 |
+| GBP | ARS | reference | 2044.78855 |
+| HKD | ARS | reference | 194.997259 |
+| ILS | ARS | reference | 492.433999 |
+| INR | ARS | reference | 16.109751 |
+| JPY | ARS | reference | 9.748247 |
+| MXP | ARS | reference | 81.96941 |
+| NIO | ARS | reference | 41.538345 |
+| NOK | ARS | reference | 163.914222 |
+| NZD | ARS | reference | 871.5091 |
+| PEN | ARS | reference | 443.256245 |
+| PYG | ARS | reference | 0.265106 |
+| REF | ARS | reference | 1528.263 |
+| RSD | ARS | reference | 14.567749 |
+| RUB | ARS | reference | 18.937471 |
+| SEK | ARS | reference | 153.859309 |
+| SGD | ARS | reference | 1196.323817 |
+| TRY | ARS | reference | 30.752063 |
+| USD | ARS | reference | 1529.5 |
+| UYU | ARS | reference | 38.13758 |
+| VEB | ARS | reference | 1.73017348 |
+| VND | ARS | reference | 0.059188886 |
+| XDR | ARS | reference | 2073.05371 |
+| ZAR | ARS | reference | 92.159651 |
 
 </details>
 
